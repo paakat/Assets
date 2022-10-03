@@ -1,35 +1,7 @@
 {
   "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
-  }
+"1":{"id":1,"title":"Andy you are a star","artist":"The Killers","album":"Hot fuss","genre":"rock","pathToMusic":"/music/andy-you-are-a-star.mp3","pathToAlbum":"/images/hot-fuss.png"},
+"2":{"id":2,"title":"Change your mind","artist":"The Killers","album":"Hot fuss","genre":"rock","pathToMusic":"/music/change-your-mind.mp3","pathToAlbum":"/images/hot-fuss.png"}
+}
+  
 }
